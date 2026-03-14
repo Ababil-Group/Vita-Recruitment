@@ -12,11 +12,11 @@ const Subsidiaries = () => {
         </div>
 
         <p className="mx-auto max-w-[950px] text-center text-white">
-          Find the right staffing support for your needs. Bridge the Gap handles
+          Find the right staffing support for your needs. Vita Recruitment handles
           documents, housing, insurance, pay, and training when required. Choose
           the best fit for your business.
           {/* Detect the staffing service type you need and find your favorite team.
-          Bridge the Gap covers required documents, stays, insurance, salaries,
+          Vita Recruitment covers required documents, stays, insurance, salaries,
           and qualifying training when needed. Pick the formula that suits your
           business&apos;s way to success. */}
         </p>

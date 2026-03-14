@@ -50,12 +50,12 @@ export default {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
-          bridge: "#046938",
+          bridge: "#C12026",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
           foreground: "hsl(var(--secondary-foreground))",
-          bridge: "#8BC646",
+          bridge: "#D53E0F",
         },
         tertiary: {
           bridge: "#FBAF1B",

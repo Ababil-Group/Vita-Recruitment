@@ -6,7 +6,7 @@ const Improve = () => {
           Improve Your Business Performance
         </h2>
         <p className="mx-auto max-w-[580px] text-center">
-          At Bridge the Gap, we specialize in delivering tailored manpower
+          At Vita Recruitment, we specialize in delivering tailored manpower
           solutions backed by decades of expertise. We have significantly
           boosted the performance and growth of numerous Qatari organizations by
           providing them with skilled, dependable professionals. Discover how a

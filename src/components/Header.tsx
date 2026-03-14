@@ -25,7 +25,7 @@ const Header = () => {
           <Image
             className="h-auto w-[100px]"
             src="/logo.png"
-            alt="Bridge The Gap Logo"
+            alt="Vita Recruitment Logo"
             height={65}
             width={150}
           />
@@ -55,7 +55,7 @@ const Header = () => {
                   <Image
                     className="h-auto w-[100px]"
                     src="/logo.png"
-                    alt="Bridge The Gap Logo"
+                    alt="Vita Recruitment Logo"
                     height={65}
                     width={150}
                   />

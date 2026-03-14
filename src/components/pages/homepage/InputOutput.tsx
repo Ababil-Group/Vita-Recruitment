@@ -10,7 +10,7 @@ const InputOutput = () => {
             Inputs Shape the Outputs
           </h3>
           <p className="text-white">
-            With more than ten years of experience, Bridge the Gap has
+            With more than ten years of experience, Vita Recruitment has
             effectively supported various sectors in Qatar by transforming their
             contributions into enhanced results and improved performance. Share
             your business needs with us, and we will offer the expert guidance

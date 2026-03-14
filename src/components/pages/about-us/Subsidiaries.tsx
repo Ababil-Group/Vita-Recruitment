@@ -9,7 +9,7 @@ const Subsidiaries = () => {
 
         <p className="mx-auto max-w-[950px] text-center text-lg">
           Identify the staffing service type you need and find your ideal team.
-          Bridge The Gap covers all necessary documentation, accommodations,
+          Vita Recruitment covers all necessary documentation, accommodations,
           insurance, salaries, and qualifying training when required. Choose the
           formula that aligns with your business&apos;s path to success.
         </p>

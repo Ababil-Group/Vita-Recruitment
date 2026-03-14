@@ -34,7 +34,7 @@ const UniqueBenefits = () => {
             </div>
             <p className="text-center text-lg font-medium">
               All your employment expenses and your employees’ salaries are
-              financed by Bridge The Gap.
+              financed by Vita Recruitment.
             </p>
           </div>
         </div>

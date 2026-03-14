@@ -22,7 +22,7 @@ const Footer = () => {
             <Image
               className="h-auto w-[150px]"
               src="/logo.png"
-              alt="Bridge The Gap Logo"
+              alt="Vita Recruitment Logo"
               height={65}
               width={150}
             />
@@ -179,7 +179,7 @@ const Footer = () => {
       </div>
 
       <div className="my-10 text-center">
-        © {currentYear} Bridge The Gap. All rights reserved.
+        © {currentYear} Vita Recruitment. All rights reserved.
       </div>
     </footer>
   );

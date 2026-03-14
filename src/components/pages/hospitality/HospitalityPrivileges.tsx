@@ -9,7 +9,7 @@ const HospitalityPrivileges = () => {
     <section className="bg-[#E3F1D0] py-20">
       <div className="container">
         <h2 className="mb-10 text-center text-3xl font-bold">
-          Bridge The Gap privileges for hospitality companies
+          Vita Recruitment privileges for hospitality companies
         </h2>
 
         <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6">

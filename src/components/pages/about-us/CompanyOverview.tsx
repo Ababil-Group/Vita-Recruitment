@@ -17,7 +17,7 @@ const CompanyOverview = () => {
           </p>
 
           <p>
-            Bridge the Gap is a family where values truly matter. We have
+            Vita Recruitment is a family where values truly matter. We have
             passionate people who make this company great. What we are proud of
             in our staff is the quality of the people we have in this company.
             As long as we are keen on that, we look forward to being a great
@@ -25,7 +25,7 @@ const CompanyOverview = () => {
           </p>
 
           <p>
-            When you look across the Bridge the Gap group of companies, you will
+            When you look across the Vita Recruitment group of companies, you will
             find that we cover a wide range of regions in Qatar. We are involved
             in every industry and market. If you need a permanent manpower
             solution, we assist in identifying your requirements. If your

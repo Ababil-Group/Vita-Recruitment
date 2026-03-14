@@ -8,7 +8,7 @@ const LogisticsSolutions = () => {
     <section className="py-20">
       <div className="container">
         <h2 className="mb-10 text-center text-3xl font-bold">
-          The solutions Bridge The Gap has to level up your logistics business
+          The solutions Vita Recruitment has to level up your logistics business
           staffing
         </h2>
 

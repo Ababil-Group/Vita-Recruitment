@@ -13,7 +13,7 @@ const OurValue = () => {
           <p className="text-sm">
             Recognizing the significant challenge of providing professional
             services, and the complexities faced by Qatari organizations in
-            sourcing legally compliant professionals, the Bridge the Gap team
+            sourcing legally compliant professionals, the Vita Recruitment team
             has committed to shouldering this responsibility with our utmost
             dedication.
           </p>
@@ -23,7 +23,7 @@ const OurValue = () => {
 
           <h6 className="font-semibold text-primary-bridge">Vision</h6>
           <p className="text-center text-sm">
-            Bridge the Gap aims to be the leading manpower service provider in
+            Vita Recruitment aims to be the leading manpower service provider in
             Qatar, ensuring that businesses have access to skilled talent while
             adhering to local regulations and standards.
           </p>
@@ -33,7 +33,7 @@ const OurValue = () => {
 
           <h6 className="font-semibold text-primary-bridge">Mission</h6>
           <p className="text-center text-sm">
-            At Bridge The Gap, our mission is to save you from the hassle of
+            At Vita Recruitment, our mission is to save you from the hassle of
             searching for qualified manpower. We provide legally covered
             professionals to secure your business and simplify your operations
             with expert consulting and support aimed at enhancing your business
