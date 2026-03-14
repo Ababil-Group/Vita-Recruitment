@@ -55,7 +55,7 @@ export default {
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
           foreground: "hsl(var(--secondary-foreground))",
-          bridge: "#D53E0F",
+          bridge: "#C12026",
         },
         tertiary: {
           bridge: "#FBAF1B",
