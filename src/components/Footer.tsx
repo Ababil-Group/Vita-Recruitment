@@ -3,10 +3,10 @@ import Link from "next/link";
 // import { FaPhoneAlt } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
 import { FaMapMarkerAlt } from "react-icons/fa";
-import { FaFacebookF } from "react-icons/fa";
+import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaYoutube } from "react-icons/fa";
-import { FaTiktok } from "react-icons/fa";
+
 import { FaInstagram } from "react-icons/fa";
 import { FaPinterestP } from "react-icons/fa";
 
@@ -134,47 +134,54 @@ const Footer = () => {
         <div className="flex items-center justify-center gap-5 border-b border-t py-5 text-4xl">
           <Link
             className=""
-            href="https://www.facebook.com/bridgethegap25/"
+            href="https://www.facebook.com/VitaRecruitment/"
             target="_blank"
           >
             <FaFacebookF className="cursor-pointer" />
           </Link>
           <Link
             className=""
-            href="https://x.com/BridgeTheGap25"
+            href="https://x.com/VitaRecruitment/"
             target="_blank"
           >
             <FaXTwitter className="cursor-pointer" />
           </Link>
           <Link
             className=""
-            href="https://www.instagram.com/bridge_the_gap25/"
+            href="https://www.instagram.com/vita_recruitment/"
             target="_blank"
           >
             <FaInstagram className="cursor-pointer" />
           </Link>
           <Link
             className=""
-            href="https://www.pinterest.com/dizibridgethegap/"
+            href="https://www.linkedin.com/company/vita-recruitment01/"
+            target="_blank"
+          >
+            <FaLinkedinIn className="cursor-pointer" />
+          </Link>
+          <Link
+            className=""
+            href="https://www.pinterest.com/vitarecruitment01/"
             target="_blank"
           >
             <FaPinterestP className="cursor-pointer" />
           </Link>
           <Link
             className=""
-            href="https://www.youtube.com/@BridgetheGap-25"
+            href="http://youtube.com/@VitaRecruitment"
             target="_blank"
           >
             <FaYoutube className="cursor-pointer" />
           </Link>
 
-          <Link
+          {/* <Link
             className=""
             href="https://www.tiktok.com/@bridgethegap25?lang=en"
             target="_blank"
           >
             <FaTiktok className="cursor-pointer" />
-          </Link>
+          </Link> */}
         </div>
       </div>
 
