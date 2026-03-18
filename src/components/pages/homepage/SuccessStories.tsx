@@ -40,7 +40,7 @@ const successStories = [
   },
   {
     id: 3,
-    image: "/primeagri.png",
+    image: "/primeagri .png",
     alt: "PrimeAgri",
     title: "PrimeAgri",
     industry: "Agriculture and Food Handling",
