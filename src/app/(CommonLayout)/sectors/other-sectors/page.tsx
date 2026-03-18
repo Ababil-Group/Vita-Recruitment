@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Bridge The Gap | Other Sectors",
+  title: "Vita Recruitment | Other Sectors",
 };
 
 const OtherSectorsPage = () => {

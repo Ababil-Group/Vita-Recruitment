@@ -7,7 +7,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Bridge The Gap | Hospitality",
+  title: "Vita Recruitment| Hospitality",
 };
 
 const HospitalityPage = () => {
@@ -23,7 +23,7 @@ const HospitalityPage = () => {
           <div className="mx-auto max-w-[750px] space-y-5">
             <p className="text-lg">
               In the hospitality sector, the human factor is the main pillar.
-              Bridge The Gap provides hospitality workers trained in welcoming,
+              Vita Recruitment| provides hospitality workers trained in welcoming,
               cheerfulness, quick actions, and organization. We give you easy
               access to workers who leave a lasting impression on every client.
             </p>
@@ -35,7 +35,7 @@ const HospitalityPage = () => {
       <section className="py-20">
         <div className="container">
           <h2 className="mb-10 text-center text-3xl font-bold">
-            In a similar manner to chess, Bridge The Gap categorizes hospitality
+            In a similar manner to chess, Vita Recruitment| categorizes hospitality
             staff
           </h2>
 
@@ -132,7 +132,7 @@ const HospitalityPage = () => {
 
       <section className="bg-[#FAFBF8] py-20 text-center">
         <div className="container space-y-4">
-          <h2 className="text-3xl font-bold">Why Bridge The Gap?</h2>
+          <h2 className="text-3xl font-bold">Why Vita Recruitment|?</h2>
           <p className="text-center text-xl">
             Experienced professionals in healthcare staffing who provide expert
             advice. Loaded with recruiting solutions and professional healthcare

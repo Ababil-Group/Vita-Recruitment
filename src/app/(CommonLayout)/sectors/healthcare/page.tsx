@@ -6,7 +6,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Bridge The Gap | Healthcare",
+  title: "Vita Recruitment| | Healthcare",
 };
 
 const HealthcarePage = () => {
@@ -17,13 +17,13 @@ const HealthcarePage = () => {
       <section className="py-20 text-center">
         <div className="container space-y-5">
           <h2 className="text-3xl font-bold">
-            Bridge The Gap hunts top healthcare talents
+            Vita Recruitment| hunts top healthcare talents
           </h2>
           <div className="mx-auto max-w-[750px] space-y-5">
             <p className="text-lg">
               Double shifts can be fewer, staff burnout can be avoided, and
               typical days can be far more productive. The Qatar Manpower
-              Solutions Company, Bridge The Gap, makes it possible for workforce
+              Solutions Company, Vita Recruitment|, makes it possible for workforce
               shortages to be covered, and for critical care nurses to be
               smoothly hired.
             </p>
@@ -37,7 +37,7 @@ const HealthcarePage = () => {
 
       <section className="bg-[#FAFBF8] py-20 text-center">
         <div className="container space-y-4">
-          <h2 className="text-3xl font-bold">Why Bridge The Gap?</h2>
+          <h2 className="text-3xl font-bold">Why Vita Recruitment|?</h2>
           <p className="text-center text-xl">
             Experienced professionals in healthcare staffing who provide expert
             advice. Loaded with recruiting solutions and professional healthcare

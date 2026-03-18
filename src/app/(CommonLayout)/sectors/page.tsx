@@ -7,7 +7,7 @@ import UniqueBenefits from "@/components/pages/sectors/UniqueBenefits";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Bridge The Gap | Sectors",
+  title: "Vita Recruitment | Sectors",
 };
 
 const SectorsPage = () => {

@@ -5,7 +5,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Bridge The Gap | Construction",
+  title: "Vita Recruitment| | Construction",
 };
 
 const ConstructionsPage = () => {
@@ -25,7 +25,7 @@ const ConstructionsPage = () => {
             </p>
             <p className="text-lg">
               Construction companies often need workers for short-term hiring,
-              and meeting deadlines can seem impossible. Bridge The Gap provides
+              and meeting deadlines can seem impossible. Vita Recruitment| provides
               trained, experienced, and time-scheduled construction workers you
               can depend on to complete your mission on schedule.
             </p>

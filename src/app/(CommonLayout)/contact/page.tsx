@@ -17,7 +17,7 @@ import { contactFormSectors, territories } from "@/constants";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Bridge The Gap | Contact Us",
+  title: "Vita Recruitment| | Contact Us",
 };
 
 const ContactPage = () => {

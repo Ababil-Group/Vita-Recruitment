@@ -53,13 +53,13 @@ const Hero = () => {
             {/* Video Embed */}
             <div className="aspect-video w-full">
               <iframe
-                className="h-full w-full"
-                src="https://res.cloudinary.com/dtw7qhd69/video/upload/v1753362014/BTG_website_mnz2i5.mp4"
+                width="1399"
+                height="787"
+                src="https://www.youtube.com/embed/jO5oE5HG0F8"
+                title="Vita Recruitment website video"
                 frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowFullScreen
-                
-                loading="lazy"
               ></iframe>
             </div>
           </div>

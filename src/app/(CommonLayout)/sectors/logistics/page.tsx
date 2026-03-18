@@ -6,7 +6,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Bridge The Gap | Logistics",
+  title: "Vita Recruitment| Logistics",
 };
 
 const LogisticsPage = () => {
@@ -22,7 +22,7 @@ const LogisticsPage = () => {
           <div className="mx-auto max-w-[750px] space-y-5">
             <p className="text-lg">
               If you’re searching for employees who combine flexibility,
-              commitment, and fast response, Bridge The Gap has them for you.
+              commitment, and fast response, Vita Recruitment| has them for you.
             </p>
 
             <p className="text-lg font-bold">
@@ -38,7 +38,7 @@ const LogisticsPage = () => {
 
       <section className="bg-[#FAFBF8] py-20 text-center">
         <div className="container space-y-4">
-          <h2 className="text-3xl font-bold">Why Bridge The Gap?</h2>
+          <h2 className="text-3xl font-bold">Why Vita Recruitment|?</h2>
           <p className="text-center text-xl">
             Experienced professionals in healthcare staffing who provide expert
             advice. Loaded with recruiting solutions and professional healthcare

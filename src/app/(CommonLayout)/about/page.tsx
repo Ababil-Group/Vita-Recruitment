@@ -5,7 +5,7 @@ import Subsidiaries from "@/components/pages/about-us/Subsidiaries";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Bridge The Gap | About Us",
+  title: "Vita Recruitment| | About Us",
 };
 
 const AboutPage = () => {

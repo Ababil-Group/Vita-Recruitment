@@ -6,7 +6,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Bridge The Gap | Oil and Gas",
+  title: "Vita Recruitment | Oil and Gas",
 };
 
 const OilAndGasPage = () => {
@@ -20,12 +20,12 @@ const OilAndGasPage = () => {
           </h2>
           <div className="mx-auto max-w-[750px] space-y-5">
             <p className="text-lg">
-              While some employees lose interest, Bridge The Gap helps you find
+              While some employees lose interest, Vita Recruitment| helps you find
               professionals prepared to work in oil and gas companies, ensuring
               operations run smoothly and safely.
             </p>
             <p className="text-lg">
-              Bridge The Gap prepares your business for demand peaks. We provide
+              Vita Recruitment| prepares your business for demand peaks. We provide
               employment stability to keep your operations running and
               productivity growing.
             </p>
@@ -39,7 +39,7 @@ const OilAndGasPage = () => {
 
       <section className="bg-[#FAFBF8] py-20 text-center">
         <div className="container space-y-4">
-          <h2 className="text-3xl font-bold">Why Bridge The Gap?</h2>
+          <h2 className="text-3xl font-bold">Why Vita Recruitment|?</h2>
           <p className="text-center text-xl">
             Experienced professionals in healthcare staffing who provide expert
             advice. Loaded with recruiting solutions and professional healthcare
