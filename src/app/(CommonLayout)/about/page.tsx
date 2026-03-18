@@ -1,7 +1,7 @@
 import AboutUsBanner from "@/components/pages/about-us/AboutUsBanner";
 import CompanyOverview from "@/components/pages/about-us/CompanyOverview";
 import OurValue from "@/components/pages/about-us/OurValue";
-import Subsidiaries from "@/components/pages/about-us/Subsidiaries";
+import Subsidiaries from "@/components/pages/homepage/Process";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
