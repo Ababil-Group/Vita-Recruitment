@@ -7,214 +7,97 @@ import {
 } from "@/components/ui/carousel";
 import Image from "next/image";
 import { useState, useEffect } from "react";
-import { type CarouselApi } from "@/components/ui/carousel"; // Import CarouselApi type
+import { type CarouselApi } from "@/components/ui/carousel";
 import { MdArrowForwardIos, MdArrowBackIos } from "react-icons/md";
 
+const successStories = [
+  {
+    id: 1,
+    image: "/workforce.png",
+    alt: "WorkForce",
+    title: "WorkForce",
+    industry: "Agriculture and General Labor",
+    location: "Bosnia, and Serbia",
+    roles: "Harvesting, packing, sorting, warehouse support, and general labor",
+    description1:
+      "WorkForce has supported employers in Bosnia, and Serbia by supplying dependable workers for essential non-desk roles across agriculture and operational support. Their workforce solutions have helped businesses maintain steady productivity during peak demand periods when reliable labor was most needed.",
+    description2:
+      "Clients appreciated the consistency, work ethic, and adaptability of the workers provided. Many employers reported smoother day-to-day operations, better workforce stability, and a more efficient recruitment experience from start to finish.",
+  },
+  {
+    id: 2,
+    image: "/metrobuild.png",
+    alt: "MetroBuild",
+    title: "MetroBuild",
+    industry: "Construction and Site Support",
+    location: "Croatia",
+    roles:
+      "General labor, loading support, material handling, cleaning, and site preparation",
+    description1:
+      "MetroBuild has worked with construction-focused employers across Croatia, Bosnia, and Serbia, helping them fill important non-desk roles required for active project sites. Their recruitment support has been valuable for companies facing labor shortages in physically demanding environments.",
+    description2:
+      "Employers were particularly satisfied with the punctuality, discipline, and readiness of the workers to adapt to on-site responsibilities. As a result, project teams experienced better operational flow and improved support for everyday construction activities.",
+  },
+  {
+    id: 3,
+    image: "/primeagri.png",
+    alt: "PrimeAgri",
+    title: "PrimeAgri",
+    industry: "Agriculture and Food Handling",
+    location: "Bosnia, and Serbia",
+    roles:
+      "Farm support, sorting, packaging, food handling, and seasonal labor",
+    description1:
+      "PrimeAgri has assisted employers in Bosnia, and Serbia by providing reliable workers for labor-intensive agricultural and food-support roles. The company has built a strong reputation for helping businesses secure dependable manpower for seasonal and ongoing operational needs.",
+    description2:
+      "Clients responded positively to the workers’ commitment, teamwork, and ability to perform in fast-paced environments. Their support contributed to more stable workflows, improved output, and greater confidence in long-term workforce planning.",
+  },
+  {
+    id: 4,
+    image: "/harvestpro.png",
+    alt: "HarvestPro",
+    title: "HarvestPro",
+    industry: "Facility Support and General Operations",
+    location: "Bosnia, and Serbia",
+    roles:
+      "Cleaning, maintenance support, storage assistance, and general labor",
+    description1:
+      "HarvestPro has supported employers in Bosnia, and Serbia by supplying dependable workers for day-to-day operational roles that are essential to business continuity. Their workforce solutions have helped clients strengthen internal support functions and improve service consistency.",
+    description2:
+      "The company received strong feedback from employers who valued the professionalism, reliability, and positive attitude of the workers provided. Many clients described the hiring process as smooth, practical, and highly supportive of their business needs.",
+  },
+];
+
 const SuccessStories = () => {
-  const [api, setApi] = useState<CarouselApi>(); // State to hold the Carousel API
-  const [activeIndex, setActiveIndex] = useState(0); // State to track the active slide index
+  const [api, setApi] = useState<CarouselApi>();
+  const [activeIndex, setActiveIndex] = useState(0);
 
-  const slides = [
-    {
-      id: 1,
-      content: (
-        <div className="flex w-full flex-col items-center gap-10 lg:flex-row">
-          <div>
-            <Image
-              className=""
-              src="/workforce.png"
-              alt="Logo"
-              height={300}
-              width={300}
-            />
-          </div>
-          <div className="space-y-3 text-sm">
-            <h6 className="font-bold">
-              WorkForce Solutions Co. Success Story:
-            </h6>
-
-            <ul className="list-disc space-y-2 pl-5">
-              <li>
-                Founded in 2015 in Qatar, specializing in supplying skilled and
-                seasonal labor across agriculture and construction sectors.
-              </li>
-              <li>
-                Expanded operations to the UK and Canada, growing the workforce
-                by 500% in all regions.
-              </li>
-              <li>
-                Became a strategic partner for large-scale agricultural and
-                construction projects in Qatar and North America.
-              </li>
-              <li>
-                Achieved high worker satisfaction across all regions and
-                maintained one of the lowest turnover rates in the industry.
-              </li>
-              Known for providing dependable workforce solutions that meet
-              diverse industry needs across multiple countries.
-            </ul>
-          </div>
-        </div>
-      ),
-    },
-    {
-      id: 2,
-      content: (
-        <div className="flex w-full flex-col items-center gap-10 lg:flex-row">
-          <div>
-            <Image
-              className=""
-              src="/metrobuild.png"
-              alt="Logo"
-              height={300}
-              width={300}
-            />
-          </div>
-          <div className="space-y-3 text-sm">
-            <h6 className="font-bold">MetroBuild Developers Success Story:</h6>
-
-            <ul className="list-disc space-y-2 pl-5">
-              <li>
-                Established in Qatar in 2010, specializing in urban development
-                and renovation projects.
-              </li>
-              <li>
-                Successfully completed multiple high-profile projects across
-                Qatar, including residential complexes and commercial buildings.
-              </li>
-              <li>
-                Expanded into the UK and Canada, taking on large urban
-                redevelopment projects in cities such as New York, Toronto, and
-                Vancouver.
-              </li>
-              <li>
-                Awarded key contracts in LUKil City and Msheireb Downtown Doha
-                in Qatar, and downtown areas in major U.S. cities.
-              </li>
-              <li>
-                Renowned for delivering projects on time and within budget,
-                focusing on sustainable development practices across all
-                regions.
-              </li>
-            </ul>
-          </div>
-        </div>
-      ),
-    },
-    {
-      id: 3,
-      content: (
-        <div className="flex w-full flex-col items-center gap-10 lg:flex-row">
-          <div>
-            <Image
-              className=""
-              src="/primeagri .png"
-              alt="Logo"
-              height={300}
-              width={300}
-            />
-          </div>
-          <div className="space-y-3 text-sm">
-            <h6 className="font-bold">PrimeAgri Farms Success Story:</h6>
-
-            <ul className="list-disc space-y-2 pl-5">
-              <li>
-                Founded in 2012 in Canada, PrimeAgri Farms is a major player in
-                integrated poultry and agricultural production.
-              </li>
-              <li>
-                Expanded operations to the UK and Qatar, focusing on sustainable
-                and innovative farming practices.
-              </li>
-              <li>
-                Increased poultry production by 50% in Canada and the UK,
-                implementing state-of-the-art farming technologies.
-              </li>
-              <li>
-                Opened multiple new poultry farms in Qatar, improving regional
-                food security and expanding distribution networks.
-              </li>
-              <li>
-                Known for producing high-quality poultry products and leading
-                advancements in agricultural sustainability.
-              </li>
-            </ul>
-          </div>
-        </div>
-      ),
-    },
-    {
-      id: 4,
-      content: (
-        <div className="flex w-full flex-col items-center gap-10 lg:flex-row">
-          <div>
-            <Image
-              className=""
-              src="/harvestpro.png"
-              alt="Logo"
-              height={300}
-              width={300}
-            />
-          </div>
-          <div className="space-y-3 text-sm">
-            <h6 className="font-bold">HarvestPro Industries Success Story:</h6>
-
-            <ul className="list-disc space-y-2 pl-5">
-              <li>
-                Founded in 2016 in the UK, HarvestPro Industries specializes in
-                scaling food and agricultural production.
-              </li>
-              <li>
-                Expanded operations to Canada and Qatar, increasing production
-                capacity by 70% in just a few years.
-              </li>
-              <li>
-                Introduced cutting-edge agricultural technologies across North
-                America and the Middle East, improving crop yields and farming
-                efficiency.
-              </li>
-              <li>
-                Became a global leader in sustainable agriculture, distributing
-                products across North America and the Middle East.
-              </li>
-              <li>
-                Focused on innovative farming methods to meet the growing global
-                demand for food and agricultural products.
-              </li>
-            </ul>
-          </div>
-        </div>
-      ),
-    },
-  ];
-
-  // Update the active index when the carousel changes
   useEffect(() => {
     if (!api) return;
 
-    api.on("select", () => {
+    setActiveIndex(api.selectedScrollSnap());
+
+    const onSelect = () => {
       setActiveIndex(api.selectedScrollSnap());
-    });
+    };
+
+    api.on("select", onSelect);
+
+    return () => {
+      api.off("select", onSelect);
+    };
   }, [api]);
 
-  // Handle dot click to navigate to the corresponding slide
   const handleDotClick = (index: number) => {
-    if (api) {
-      api.scrollTo(index);
-    }
+    api?.scrollTo(index);
   };
 
-  // Handle previous and next navigation
   const handlePrevious = () => {
-    if (api) {
-      api.scrollPrev();
-    }
+    api?.scrollPrev();
   };
 
   const handleNext = () => {
-    if (api) {
-      api.scrollNext();
-    }
+    api?.scrollNext();
   };
 
   return (
@@ -226,42 +109,86 @@ const SuccessStories = () => {
           </div>
         </div>
 
-        <div className="group relative mx-auto mt-20 max-w-4xl rounded-xl border p-10">
-          <Carousel className="mx-5" setApi={setApi}>
+        <p className="mx-auto mt-5 max-w-3xl text-center text-base text-gray-600">
+          Explore how employers across Europe have benefited from our workforce
+          solutions for essential non-desk roles in agriculture, construction,
+          and operational support.
+        </p>
+
+        <div className="group relative mx-auto mt-14 max-w-6xl rounded-2xl border bg-white p-6 shadow-sm md:p-10">
+          <Carousel setApi={setApi} className="w-full">
             <CarouselContent>
-              {slides.map((slide) => (
-                <CarouselItem
-                  className="flex items-center justify-center"
-                  key={slide.id}
-                >
-                  {slide.content}
+              {successStories.map((story) => (
+                <CarouselItem key={story.id}>
+                  <div className="flex flex-col gap-8 lg:flex-row lg:items-start">
+                    <div className="flex justify-center lg:w-[240px] lg:shrink-0">
+                      <Image
+                        src={story.image}
+                        alt={story.alt}
+                        width={220}
+                        height={220}
+                        className="rounded-xl object-contain"
+                      />
+                    </div>
+
+                    <div className="flex-1 space-y-4">
+                      <h3 className="text-2xl font-bold text-gray-900">
+                        {story.title}
+                      </h3>
+
+                      <div className="grid gap-2 text-sm text-gray-600 sm:grid-cols-1">
+                        <p>
+                          <span className="font-semibold text-gray-900">
+                            Industry:
+                          </span>{" "}
+                          {story.industry}
+                        </p>
+                        <p>
+                          <span className="font-semibold text-gray-900">
+                            Location:
+                          </span>{" "}
+                          {story.location}
+                        </p>
+                        <p>
+                          <span className="font-semibold text-gray-900">
+                            Roles Supplied:
+                          </span>{" "}
+                          {story.roles}
+                        </p>
+                      </div>
+
+                      <div className="space-y-4 pt-2 text-sm leading-7 text-gray-700 md:text-[15px]">
+                        <p>{story.description1}</p>
+                        <p>{story.description2}</p>
+                      </div>
+                    </div>
+                  </div>
                 </CarouselItem>
               ))}
             </CarouselContent>
           </Carousel>
 
-          {/* Custom Arrow Buttons */}
           <button
             onClick={handlePrevious}
-            className="pointer-events-none absolute left-0 top-1/2 mx-5 -translate-y-1/2 transform rounded-full opacity-0 transition-opacity duration-500 group-hover:pointer-events-auto group-hover:opacity-100"
+            className="absolute left-2 top-1/2 z-10 -translate-y-1/2 rounded-full bg-white p-2 shadow-md transition hover:scale-105 md:left-4"
           >
-            <MdArrowBackIos className="text-4xl" />
-          </button>
-          <button
-            onClick={handleNext}
-            className="pointer-events-none absolute right-0 top-1/2 mx-2 -translate-y-1/2 transform rounded-full opacity-0 transition-opacity duration-500 group-hover:pointer-events-auto group-hover:opacity-100"
-          >
-            <MdArrowForwardIos className="text-4xl" />
+            <MdArrowBackIos className="text-2xl text-gray-700" />
           </button>
 
-          {/* Dot Navigation */}
-          <div className="mt-10 flex justify-center space-x-2">
-            {slides.map((_, i) => (
+          <button
+            onClick={handleNext}
+            className="absolute right-2 top-1/2 z-10 -translate-y-1/2 rounded-full bg-white p-2 shadow-md transition hover:scale-105 md:right-4"
+          >
+            <MdArrowForwardIos className="text-2xl text-gray-700" />
+          </button>
+
+          <div className="mt-8 flex justify-center gap-2">
+            {successStories.map((_, i) => (
               <button
                 key={i}
                 onClick={() => handleDotClick(i)}
-                className={`size-2 rounded-full ${
-                  i === activeIndex ? "bg-primary" : "bg-gray-300"
+                className={`h-2.5 rounded-full transition-all duration-300 ${
+                  i === activeIndex ? "w-8 bg-primary" : "w-2.5 bg-gray-300"
                 }`}
               />
             ))}

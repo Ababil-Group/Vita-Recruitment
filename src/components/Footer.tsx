@@ -100,30 +100,7 @@ const Footer = () => {
                 <div>
                   <FaMapMarkerAlt />
                 </div>
-                Qatar - Kempinski, The Pearl, Doha, Qatar. P.O. Box 12345, Doha,
-                Qatar.
-              </Link>
-            </li>
-            <li>
-              <Link
-                className="inline-flex items-center justify-start gap-2 hover:underline"
-                href="mailto:info@bridgethegap.agency"
-              >
-                <div>
-                  <FaMapMarkerAlt />
-                </div>
-                UK - 16 Holmesdale Road, Teddington, Middlesex, TW11 9LF
-              </Link>
-            </li>
-            <li>
-              <Link
-                className="inline-flex items-center justify-start gap-2 hover:underline"
-                href="mailto:info@bridgethegap.agency"
-              >
-                <div>
-                  <FaMapMarkerAlt />
-                </div>
-                Canada - 999 Canada Pl #404, Vancouver, BC V6C 3E1, Canada
+                South Woodford, London, United Kingdom, E18 2QH
               </Link>
             </li>
           </ul>

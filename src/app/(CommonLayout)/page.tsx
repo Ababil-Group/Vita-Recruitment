@@ -4,7 +4,7 @@ import Improve from "@/components/pages/homepage/Improve";
 import InputOutput from "@/components/pages/homepage/InputOutput";
 import LetsConnect from "@/components/pages/homepage/LetsConnect";
 import People from "@/components/pages/homepage/People";
-import Subsidiaries from "@/components/pages/homepage/Subsidiaries";
+import Process from "@/components/pages/homepage/Process";
 import SuccessStories from "@/components/pages/homepage/SuccessStories";
 import { Metadata } from "next";
 
@@ -21,7 +21,7 @@ const HomePage = () => {
       <Achievements />
       <People />
       <SuccessStories />
-      <Subsidiaries />
+      <Process />
       <LetsConnect />
     </main>
   );
