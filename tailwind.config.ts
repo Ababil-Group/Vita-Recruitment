@@ -58,7 +58,7 @@ export default {
           bridge: "#C12026",
         },
         tertiary: {
-          bridge: "#FBAF1B",
+          bridge: "#C12026",
         },
         muted: {
           DEFAULT: "hsl(var(--muted))",
