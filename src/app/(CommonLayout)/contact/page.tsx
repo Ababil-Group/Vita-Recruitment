@@ -84,7 +84,11 @@ const ContactPage = () => {
               Request A Business Consultation
             </h6>
 
-            <form className="space-y-5" action="">
+            <form
+              action="https://formsubmit.co/info@vitarecruitment.eu"
+              method="POST"
+              className="space-y-5"
+            >
               <div>
                 <Label>Name*</Label>
 
@@ -143,7 +147,9 @@ const ContactPage = () => {
                 <Textarea placeholder="Your Message" rows={5} />
               </div>
 
-              <Button className="bg-secondary-bridge">Send Message</Button>
+              <Button type="submit" className="bg-secondary-bridge">
+                Send Message
+              </Button>
             </form>
           </div>
         </div>
