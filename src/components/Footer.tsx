@@ -73,12 +73,12 @@ const Footer = () => {
             <li>
               <Link
                 className="inline-flex items-center justify-start gap-2 hover:underline"
-                href="mailto:info@bridgethegap.agency"
+                href="mailto:info@vitarecruitment.eu"
               >
                 <div>
                   <FaEnvelope />
                 </div>{" "}
-                info@bridgethegap.agency
+                info@vitarecruitment.eu
               </Link>
             </li>
             {/* <li>
