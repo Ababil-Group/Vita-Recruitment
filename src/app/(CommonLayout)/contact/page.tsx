@@ -82,6 +82,11 @@ const ContactPage = () => {
               {/* hidden config */}
               <input type="hidden" name="_captcha" value="false" />
               <input type="hidden" name="_template" value="table" />
+              <input
+                type="hidden"
+                name="_next"
+                value="https://vitarecruitment.eu/"
+              />
 
               {/* hidden values for select */}
               <input type="hidden" name="territory" value={selectedTerritory} />
