@@ -54,7 +54,9 @@ const ContactPage = () => {
                 <p className="text-sm">
                   <strong>Email</strong>
                 </p>
-                <p className="text-sm">info@vitarecruitment.eu</p>
+                <Link href="mailto:info@vitarecruitment.eu">
+                  <p className="text-sm">info@vitarecruitment.eu</p>
+                </Link>
               </div>
             </div>
             {/* card  */}
@@ -85,7 +87,7 @@ const ContactPage = () => {
             </h6>
 
             <form
-              action="https://formsubmit.co/info@vitarecruitment.eu"
+              action="https://formsubmit.co/7f4c3527d3f6241b21e479419f88eb17"
               method="POST"
               className="space-y-5"
             >
